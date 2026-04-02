@@ -2,18 +2,24 @@
 
 }
 
+#admin{
+    display:none;
+}
+
 #admin header{
     position: fixed;
     width: 100%;
     right: 0;
     top: 0;
-    display:none;
 }
 
 #tenant{
+    display:none;
+}
+
+#tenant header{
     position: fixed;
     width: 100%;
     right: 0;
     top: 0;
-    display:none;
 }
