@@ -1,3 +1,7 @@
-function checkLog(){
+function logIn(){
     
+}
+
+function createUser(){
+
 }
