@@ -7,12 +7,9 @@
         <script src="login.js"></script>
     </head>
 
-    <body>
-        <h1>
-            Sign In
-        </h1>
-        
+    <body>       
         <div id="sign-in">
+            <h1>Sign In</h1>
             <label for="inUser">Username: </label>
             <input type="text" name="inUser" id="inUser"><br>
             <label for="passIn">Password :</label>
@@ -21,17 +18,28 @@
             <button onclick="createUser()">Create User</button><br>
         </div>
 
+        <div id="createUser">
+            <h1>Enter Your Information:</h1>
+            <label for="inName">Name: </label>
+            <input type="text" name="inName" id="inName"><br>
+            <label for="inEmail">Email: </label>
+            <input type="text" name="inEmail" id="inEmail"><br>
+            <label for="inPhone">Phone: </label>
+            <input type="text" name="inPhone" id="inPhone"><br>
+            <button onclick="addUser()">Submit</button>
+        </div>
+
         <div id="admin">
             <header>
 
             </header>
 
             <body>
-                <button>Tenant Management</button>
+                <button onclick="tenManage()">Tenant Management</button><br>
 
-                <button>Battle Management</button>
+                <button onclick="batManage()">Battle Management</button><br>
 
-                <button>Maintenance Management</button>
+                <button onclick="mainManage()">Maintenance Management</button><br>
             </body>
         </div>
         
@@ -41,13 +49,13 @@
             </header>
 
             <body>
-                <button>My Property</button>
+                <button onclick="checkProp()">My Property</button><br>
 
-                <button>Payments</button>
+                <button onclick="checkPay()">Payments</button><br>
 
-                <button>Maintenance</button>
+                <button onclick="checkMain()">Maintenance</button><br>
 
-                <button>My Profile</button>
+                <button onclick="viewProf()">My Profile</button><br>
             </body>
         </div>
 
