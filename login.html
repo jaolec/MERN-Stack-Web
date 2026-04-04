@@ -20,18 +20,24 @@
 
         <div id="createUser">
             <h1>Enter Your Information:</h1>
+            <label for="newUser">Username: </label>
+            <input type="text" name="newUser" id="newUser"><br>
+            <label for="newPass">Password: </label>
+            <input type="text" name="newPass" id="newPass"><br>
             <label for="inName">Name: </label>
             <input type="text" name="inName" id="inName"><br>
             <label for="inEmail">Email: </label>
             <input type="text" name="inEmail" id="inEmail"><br>
             <label for="inPhone">Phone: </label>
             <input type="text" name="inPhone" id="inPhone"><br>
+            <label for="accountType">Account Type:</label>
             <button onclick="addUser()">Submit</button>
+            <button onclick="stopCreate()">Cancel</button>
         </div>
 
         <div id="admin">
             <header>
-
+                <h1>Manager</h1>
             </header>
 
             <body>
@@ -45,7 +51,7 @@
         
         <div id="tenant">
             <header>
-
+                <h1>Tenant</h1>
             </header>
 
             <body>
