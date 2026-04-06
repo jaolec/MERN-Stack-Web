@@ -77,8 +77,13 @@ function battleUpdate(){
 
 }
 
-//Creates a new battle entry in the server
+//Opens create battle menu
 function battleCreate(){
+
+}
+
+//Adds new battle to database
+function pushBattle(){
 
 }
 
@@ -99,14 +104,19 @@ function updateTenant(){
 
 }
 
-//Adds a tenant in the database
+//Opens create tenant menu
 function createTenant(){
+
+}
+
+//Adds new tenant to database
+function pushTenant(){
 
 }
 
 //Admin Maintenance Functions
 
-//Next four functions are like before
+//Next five functions are like before
 function fetchMain(){
 
 }
@@ -120,5 +130,9 @@ function updateMain(){
 }
 
 function createMain(){
+
+}
+
+function pushMain(){
     
 }
