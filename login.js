@@ -31,15 +31,21 @@ function addUser(){
 //In the corresponding div
 //If anything is already displayed, make sure to hide it
 function tenManage(){
-
+    document.getElementById("tenManPage").style.display = 'block';
+    document.getElementById("batManPage").style.display = 'none';
+    document.getElementById("mainManPage").style.display = 'none';
 }
 
 function batManage(){
-
+    document.getElementById("batManPage").style.display = 'block';
+    document.getElementById("tenManPage").style.display = 'none';
+    document.getElementById("mainManPage").style.display = 'none';
 }
 
 function mainManage(){
-
+    document.getElementById("mainManPage").style.display = 'block';
+    document.getElementById("batManPage").style.display = 'none';
+    document.getElementById("tenManPage").style.display = 'none';
 }
 
 function checkProp(){
@@ -134,5 +140,5 @@ function createMain(){
 }
 
 function pushMain(){
-    
+
 }

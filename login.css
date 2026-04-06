@@ -28,6 +28,14 @@
     top: 0;
 }
 
-#putStuffHere{
-    
+#tenManPage{
+    display:none;
+}
+
+#batManPage{
+    display:none;
+}
+
+#mainManPage{
+    display:none;
 }
