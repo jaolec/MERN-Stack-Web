@@ -21,7 +21,6 @@ function stopCreate(){
 //Checks if the given username is already taken
 //If not, add new user to database
 //Should also record the date the account was created
-//User role should be set to tenant, so random users don't make admin accounts
 //Afterwards, set display to none and show the login screen again
 function addUser(){
     
@@ -57,4 +56,69 @@ function checkMain(){
 
 function viewProf(){
 
+}
+
+//Admin Battle Functions
+
+//Fetches and displays a specific battle from the server
+function fetchBattle(){
+
+}
+
+//After using fetchBattle, this should open an edit menu or give textboxes
+//to fill. A submit button should also appear.
+function battleEdit(){
+
+}
+
+//Takes all information in the previous textboxes and updates
+//the corresponding database battle
+function battleUpdate(){
+
+}
+
+//Creates a new battle entry in the server
+function battleCreate(){
+
+}
+
+//Admin Tenant Functions
+
+//Fetches a specific tenant
+function fetchTenant(){
+
+}
+
+//Edits a fetched tenant, should work like battles
+function editTenant(){
+
+}
+
+//Like battles, update
+function updateTenant(){
+
+}
+
+//Adds a tenant in the database
+function createTenant(){
+
+}
+
+//Admin Maintenance Functions
+
+//Next four functions are like before
+function fetchMain(){
+
+}
+
+function editMain(){
+
+}
+
+function updateMain(){
+
+}
+
+function createMain(){
+    
 }
